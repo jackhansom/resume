@@ -2,9 +2,6 @@ baseURL = "https://www.example.org/"
 languageCode = "en-us"
 theme = "aafu"
 
-[context.production.environment]
-  HUGO_VERSION = "0.70"
-
 [params]
     title = "Jack Hansom CV"
     author = "Jack Hansom"
