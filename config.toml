@@ -3,16 +3,15 @@ languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Aafu theme"
-    author = "Darshan Baral"
-    description = "Website title"
-    copyright = "aaa"
+    title = "Jack Hansom CV"
+    author = "Jack Hansom"
+    description = "Jack Hansom's CV wesite"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
-        mainTheme = "light"
+        mainTheme = "dark"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = true
+        showAttribute = false
         singlePage = false
 
     [params.favicons]
@@ -28,9 +27,9 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "First Last, Abbr."
-		tagline = "Title"
-		location = "City Name, ST"
+        name = "Jack Hansom"
+		tagline = "Data Scientist"
+		location = "London"
         photo = "profile.jpg"
 
     # Section for links to social websites
@@ -41,32 +40,12 @@ theme = "aafu"
             class = "fab"
             icon = "fa-linkedin-in"
             url = "#"
-            title = "LinkedIn"		
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-stack-overflow"
-            url = "#"
-            title = "StackOverflow"
+            title = "LinkedIn"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
             url = "#"
             title = "GitHub"
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-twitter"
-            url = "#"
-            title = "Twitter"
-		[[params.social.list]]
-            class = "ai"
-            icon = "ai-google-scholar"
-            url = "#"
-            title = "Google Scholar"
-		[[params.social.list]]
-            class = "ai"
-            icon = "ai-researchgate"
-            url = "#"
-            title = "ResearchGate"
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
@@ -92,19 +71,24 @@ theme = "aafu"
 
     # Experience section
     [params.experience]
-        title = "Experiences"
+        title = "Work Experience"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            position = "Principal Data Scientist"
+            dates = "October 2019 - *Present*"
+            company = "Verv"
+            details = "Developing machine learning models and architecture for real-time [fault detection](blog/fault_detection) of electrical household appliances."
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            link = "#"
+            position = "Data Scientist"
+            dates = "October 2017 - October 2019"
             company = "Company Name"
+            details = "Developing machine learning models and architecture for real-time [appliance disaggregation](blog/NILM) of electrical household appliances."
+        [[params.experience.list]]
+            position = "Data Scientist"
+            dates = "September 2015 - October 2017"
+            company = "SCL Elections"
+            details = "Client facing blah blah blah"
 
     # Education section
     [params.education]
@@ -112,21 +96,21 @@ theme = "aafu"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
+            degree = "Ph.D. in Physics"
+            college = "University of Cambridge"
+            dates = "2011 - 2015"
+            thesis_title = "Environmental coupling in quantum dot as a resource for quantum optics and spin control"
+            thesis_link = "https://www.repository.cam.ac.uk/handle/1810/252641"
+        [[params.education.list]]
+            degree = "MSci in Physics"
+            college = "University College London"
+            dates = "2007 - 2011"
+            thesis_title = "Coupling entropy in quantum systems."
             thesis_link = "#"
         [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "French Baccalaureat, specializing in science"
+            college = "Riberac"
+            dates = "2007"
 
     # Publication section
     [params.publication]
