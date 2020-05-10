@@ -1,4 +1,4 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://www.jackhansom.netlify.app/"
 languageCode = "en-us"
 theme = "aafu"
 
@@ -67,7 +67,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "I'm a quantum physicist by training, working on applying machine learning and data science to a variety of problems since 2015"
 
     # Experience section
     [params.experience]
@@ -82,13 +82,18 @@ theme = "aafu"
         [[params.experience.list]]
             position = "Data Scientist"
             dates = "October 2017 - October 2019"
-            company = "Company Name"
+            company = "Verv"
             details = "Developing machine learning models and architecture for real-time [appliance disaggregation](blog/NILM) of electrical household appliances."
         [[params.experience.list]]
             position = "Data Scientist"
             dates = "September 2015 - October 2017"
             company = "SCL Elections"
-            details = "Client facing blah blah blah"
+            details = "Working as a data scientist with a political communications strategy company with an emphasis on using machine learning and data science for microtargeting."
+        [[params.experience.list]]
+            position = "Data Science Fellow"
+            dates = "Summer 2015"
+            company = "The ASI (now Faculty)"
+            details = "Highly selective and intensive 8 week [course](https://faculty.ai/products-services/fellowship/) providing fellows a taught component and an individual project with a company."
 
     # Education section
     [params.education]
@@ -106,7 +111,6 @@ theme = "aafu"
             college = "University College London"
             dates = "2007 - 2011"
             thesis_title = "Coupling entropy in quantum systems."
-            thesis_link = "#"
         [[params.education.list]]
             degree = "French Baccalaureat, specializing in science"
             college = "Riberac"
@@ -119,31 +123,55 @@ theme = "aafu"
         #The order below determines the order in which the items appear in "Publications" section
         format = ["date", "authors", "title", "journal"]
         #If you don't want to group publications, comment the line below by adding # at the beginning
-        types = ["Journal Articles", "Proceedings"]
+        types = ["Machine Learning", "Physics"]
 
         [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
-            type = "Journal Articles"
+            title = "Deep Neural Networks for Appliance Transient Classification."
+            authors = "Peter Davies, Jon Dennis, Jack Hansom, William Martin, Aistis Stankevicius, Lionel Ward"
+            date = "2019"
+            journal = "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            link = "https://ieeexplore.ieee.org/document/8682658"
+            type = "Machine Learning"
 
         [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
-            type = "Journal Articles"
+            title = "Quadrature squeezed photons from a two-level system."
+            authors = "C. H. H. Schulte, J. Hansom, et all"
+            date = "2015"
+            journal = "Nature, 525, 222-225 (2015)"
+            link = "https://www.nature.com/articles/nature14868"
+            type = "Physics"
 		
         [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
-            type = "Proceedings"
+            title = "Environment-assisted quantum control of a solid-state spin via coherent dark states."
+            authors = "J. Hansom, et al"
+            date = "2014"
+            journal = "Nature Physics, 10, 725 (2014)"
+            link = "https://www.nature.com/articles/nphys3077"
+            type = "Physics"
+
+        [[params.publication.list]]
+            title = "Frequency stabilization of the zero-phonon line of a quantum dot via phonon-assisted active feedback."
+            authors = "J. Hansom, et al"
+            date = "2014"
+            journal = "Applied Physics Letters, 105, 172107"
+            link = "https://aip.scitation.org/doi/abs/10.1063/1.4901045?journalCode=apl"
+            type = "Physics"
+
+        [[params.publication.list]]
+            title = "Dynamics of a mesoscopic nuclear spin ensemble interacting with an optically driven electron spin."
+            authors = "M. J. Stanley, et al"
+            date = "2014"
+            journal = "Phys. Rev. B 90, 195305"
+            link = "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.90.195305"
+            type = "Physics"
+
+        [[params.publication.list]]
+            title = "Phase-locked indistinguishable photons withsynthesized waveforms from a solid-state source."
+            authors = "C. Matthiesen, et al"
+            date = "2013"
+            journal = "Nature Communications volume 4, Article number: 1600 (2013) "
+            link = "https://www.nature.com/articles/ncomms2601"
+            type = "Physics"
 
     # Project section
     [params.project]
@@ -151,17 +179,17 @@ theme = "aafu"
         icon = "fas fa-project-diagram"
 
         [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"
+            title = "Probabilistic football predictions"
+            url = "https://jackhansom.github.io//data%20science/2018WorldCup/"
+            description = "Simple probabilistic modelling of the 2018 world cup"
         [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"
+            title = "Spark raspberry-pi mini cluster"
+            url = "https://jackhansom.github.io//data%20science/Raspberry-Pi-3-Spark-Cluster/"
+            description = "Created a home spark cluster based on raspberry-pi machines"
         [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"
+            title = "2017 French elections tweet graph"
+            url = "https://jackhansom.github.io//data%20science/FrenchPrimaries/"
+            description = "Simple visualisation of tweets collected during the 2017 French presidential elections"
         [[params.project.list]]
             title = "project"
             url = "#"
@@ -174,14 +202,41 @@ theme = "aafu"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
-            skill = "Skill 1, Skill 2"
+            skill = "Python"
+            skillrating = 90        
+        [[params.skill.list]]
+            skill = "Scala"
+            skillrating = 40
+        [[params.skill.list]]
+            skill = "C++"
+            skillrating = 30
+        [[params.skill.list]]
+            skill = "Spark"
+            skillrating = 60
+        [[params.skill.list]]
+            skill = "Javascript"
+            skillrating = 30
+        [[params.skill.list]]
+            skill = "Data Analysis"
             skillrating = 90
         [[params.skill.list]]
-            skill = "Skill 3"
+            skill = "Machine Learning"
+            skillrating = 90
+        [[params.skill.list]]
+            skill = "Statistics"
             skillrating = 80
         [[params.skill.list]]
-            skill = "Skill 4"
-            skillrating = 50
+            skill = "Deep Learning"
+            skillrating = 70
+        [[params.skill.list]]
+            skill = "Bayesian methods"
+            skillrating = 70
+        [[params.skill.list]]
+            skill = "cloud ML deployment"
+            skillrating = 70
+        [[params.skill.list]]
+            skill = "edge ML deployment"
+            skillrating = 40
 
     # Hobby section
     [params.hobby]
@@ -189,8 +244,8 @@ theme = "aafu"
         icon = "fas fa-gamepad"
 		
         [[params.hobby.list]]		
-		    hobby = "Cooking"
+		    hobby = "Running"
         [[params.hobby.list]]		
-		    hobby = "Hiking"
+		    hobby = "Cycling"
         [[params.hobby.list]]		
-		    hobby = "Baking"
+		    hobby = "Piano"
