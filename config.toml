@@ -1,6 +1,6 @@
 baseURL = "https://www.jackhansom.netlify.app/"
 languageCode = "en-us"
-theme = "aafu"
+theme = "aafu_mod"
 
 [params]
     title = "Jack Hansom CV"
